@@ -13,12 +13,14 @@ Finally, I will be glad if this information can bring you some useful help.
     - [2.Data Struct](#2data-struct)
     - [3.Coding Website](#3coding-website)
     - [4.Note of Book](#4note-of-book)
+        - [Clean Code](#clean-code)
     - [5.DevOps](#5devops)
     - [6.More Knowledge](#6more-knowledge)
 
 - [Getting the Job](#-getting-the-job)
     - [1.How to Make a Resume](#1how-to-make-a-resume)
     - [2.Find a Job](#2find-a-job)
+    - [3.How to Write a Thank You Letter](#3how-to-write-a-thank-you-letter)
 ### Topic of Study
 ---
 #### 1.Lauguage
@@ -55,7 +57,7 @@ Finally, I will be glad if this information can bring you some useful help.
     |Examples: <br>-Car has a Driver.-A Human uses Clothes.<br>-A Company is an aggregation of People.<br>-A Text Editor uses a File.<br>-Mobile has a SIM Card.|Examples:<br>- Engine is a part of Car.<br>- A Human owns the Heart.<br>- A Company is a composition of Accounts.<br>- A Text Editor owns a Buffer.<br>- IMEI Number is a part of a Mobile.|
 
     **Q3:What is difference between Heap and Stack Memory in java?**
-    
+
     ```Java Heap space is used by java runtime to allocate memory to Objects and JRE classes. Whenever we create any object, it’s always created in the Heap space.```
     Garbage Collection runs on the heap memory to free the memory used by objects that doesn’t have any reference. Any object created in the heap space has global access and can be referenced from anywhere of the application.
     ```Stack in java is a section of memory which contains methods, local variables and reference variables. Local variables are created in the stack.```
@@ -117,11 +119,31 @@ Finally, I will be glad if this information can bring you some useful help.
 #### 2.Data Struct
 #### 3.Coding Website
 #### 4.Note of Book
+##### Clean Code
+There are two parts to learning craftsmanship: KNOWLEDGE and WORK.
+
 #### 5.DevOps
+##### CI/CD
+##### K8S
+##### Docker
 #### 6.More Knowledge
 ### Getting the Job
 ---
 #### 1.How to Make a Resume
 #### 2.Find a Job
+#### 3.How to Write a Thank You Letter
+**Example One:**
+> Dear [interviewer name],
+> Thank you again for taking the time to speak with me about the [job title] position and for giving me additional insight into the responsibilities and day-to-day duties involved. Our conversation today only increased my interest in the role. I would be thrilled to use my [insert a skill or two that you discussed in your interview, such as "editorial skills and background research and interviewing"] to benefit [company name] and your goals, including the work you're doing on [insert a specific example of a project or work your interview mentioned,such as "expanding into video and other multimedia content"].
+> Please don't hesitate to reach out if you have additional questions for me! I look forward to having another conversation with you soon.
+> Best regards,
+> Your Name
 
+**Example Two:**
+> Hello [Interviewer Name],
+> It was a pleasure to meet you today (dd/mm/yyyy). I wanted to take the opportunity to thank you once more for considering me for the _____ position. Our conversation made me fell even more confident that my current transferable skills and character are a great fit for what the team is looking for, I am eager to learn and can learn fast.
+> I particularly enjoyed learning about the various projects/analysis that the team has been running to oversee the investment risk of the firm, and everyone in the team has the choice to rotate on project executions and analysis tasks. Furthermore, I want to join a team that I commit to long-term that will providing ongoing opportunity for growth and has great colleagues and leaders who I can continuously learn from. Based on our conversation, I know that the team aligns with these goals.
+> Thank you again for your time and consideration, and look forward to hearing about next steps!
+
+ 
 
