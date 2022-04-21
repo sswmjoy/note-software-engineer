@@ -25,8 +25,7 @@ Finally, I will be glad if this information can bring you some useful help.
 ---
 #### 1.Lauguage
 ##### Java
-- Core Jave Interview Questions and Answers(Freshers&Experienced Developers):
-    **Q1:What are the types of Exceptions? Explain the hierarchy of Java Exception classes?**
+- Core Jave Interview Questions and Answers(Freshers&Experienced Developers):<br>**Q1:What are the types of Exceptions? Explain the hierarchy of Java Exception classes?**
     Ans:Exception is an error event that can happen during the execution of a program and disrupts its normal flow.
 
     There are THREE TPYES of Java Exception,Checked Exception,Unchecked Exception and Error.
@@ -112,7 +111,7 @@ Finally, I will be glad if this information can bring you some useful help.
     When the main() method is declared as private, the program compiles but during runtime it shows “main() method not public.” Message. When the static modifier is removed from the signature of the main() method, the Program compiles but at runtime throws an error “NoSuchMethodError”.
     **Q16:What is a Java servlet**
     A Servlet in Java refers to the server-side technologies which are used to extend the competence of web servers by giving it support for a dynamic response as well as data persistence.
-    **Q17:the Life-cycle of a Java Servlet**
+    <br>**Q17:the Life-cycle of a Java Servlet**
 
 ##### JS
 ##### Python
