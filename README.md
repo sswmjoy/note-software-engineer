@@ -53,6 +53,7 @@ Finally, I will be glad if this information can bring you some useful help.
     |Denoted by a empty diamond in UML.|Denoted by a filled diamond in UML.|
     |We do not use "final" keyword for Aggregation.|"final" keyword is used to represent Composition.|
     |Examples: <br>-Car has a Driver.-A Human uses Clothes.<br>-A Company is an aggregation of People.<br>-A Text Editor uses a File.<br>-Mobile has a SIM Card.|Examples:<br>- Engine is a part of Car.<br>- A Human owns the Heart.<br>- A Company is a composition of Accounts.<br>- A Text Editor owns a Buffer.<br>- IMEI Number is a part of a Mobile.|
+    
     **Q3:What is difference between Heap and Stack Memory in java?**
     ```Java Heap space is used by java runtime to allocate memory to Objects and JRE classes. Whenever we create any object, it’s always created in the Heap space.```
     Garbage Collection runs on the heap memory to free the memory used by objects that doesn’t have any reference. Any object created in the heap space has global access and can be referenced from anywhere of the application.
