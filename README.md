@@ -1,10 +1,30 @@
-# note-software-engineer {ignore = true}
+# note-software-engineer
 >This page is in order to record my knowledge about software engineering which contains interviewing, and reading notes.
 I have many years as a java software engineer in China, but I realize that I also have some gaps to explain my knowledge in English. Otherwise, I have been preparing for my interview in English, so there are some tips about how to make a resume in English, etc.   
 Finally, I will be glad if this information can bring you some useful help.
-## Table of Contents {ignore = true}
+## Table of Contents 
 ---
-[TOC]
+
+<!-- code_chunk_output -->
+
+- [note-software-engineer](#note-software-engineer)
+  - [## Table of Contents](#-table-of-contents)
+  - [### Topic of Study](#-topic-of-study)
+      - [1.Lauguage](#1lauguage)
+        - [Java](#java)
+        - [JS](#js)
+        - [Python](#python)
+      - [2.Data Struct](#2data-struct)
+      - [3.Coding Website](#3coding-website)
+      - [4.Note of Book](#4note-of-book)
+      - [5.DevOps](#5devops)
+      - [6.More Knowledge](#6more-knowledge)
+  - [### Getting the Job](#-getting-the-job)
+      - [1.How to Make a Resume](#1how-to-make-a-resume)
+      - [2.Find a Job](#2find-a-job)
+
+<!-- /code_chunk_output -->
+<!-- /code_chunk_output -->
 ### Topic of Study
 ---
 #### 1.Lauguage
@@ -103,7 +123,7 @@ Finally, I will be glad if this information can bring you some useful help.
 #### 4.Note of Book
 #### 5.DevOps
 #### 6.More Knowledge
-###Getting the Job
+### Getting the Job
 ---
 #### 1.How to Make a Resume
 #### 2.Find a Job
