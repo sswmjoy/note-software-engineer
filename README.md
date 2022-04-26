@@ -37,6 +37,7 @@ Finally, I will be glad if this information can bring you some useful help.
 
     Hierarchy of Java Exception classes
     The java.lang.Throwable class is the root class of Java Exception hierarchy which is inherited by two subclasses: Exception and Error.
+
     <br>**Q2:What is the difference between aggregation and composition?**
     <br>Ans:We call aggregation those relationships whose objects have an independent lifecycle, but there is ownership, and child objects cannot belong to another parent object.
     We use the term composition to refer to relationships whose objects don’t have an independent lifecycle, and if the parent object is deleted, all child objects will also be deleted.
@@ -54,9 +55,7 @@ Finally, I will be glad if this information can bring you some useful help.
     |Denoted by a empty diamond in UML.|Denoted by a filled diamond in UML.|
     |We do not use "final" keyword for Aggregation.|"final" keyword is used to represent Composition.|
     |Examples: <br>-Car has a Driver.-A Human uses Clothes.<br>-A Company is an aggregation of People.<br>-A Text Editor uses a File.<br>-Mobile has a SIM Card.|Examples:<br>- Engine is a part of Car.<br>- A Human owns the Heart.<br>- A Company is a composition of Accounts.<br>- A Text Editor owns a Buffer.<br>- IMEI Number is a part of a Mobile.|
-
     <br>**Q3:What is difference between Heap and Stack Memory in java?**
-
     <br>```Java Heap space is used by java runtime to allocate memory to Objects and JRE classes. Whenever we create any object, it’s always created in the Heap space.```
     Garbage Collection runs on the heap memory to free the memory used by objects that doesn’t have any reference. Any object created in the heap space has global access and can be referenced from anywhere of the application.
     <br>```Stack in java is a section of memory which contains methods, local variables and reference variables. Local variables are created in the stack.```
@@ -102,6 +101,7 @@ Finally, I will be glad if this information can bring you some useful help.
 
     <br>**Q12:Describe synchronization with respect to multithreading.**
     <br>Synchronization is the method to control the access of multiple threads to shared resources, with respect to multithreading. One thread can modify a shared variable when not in synchronization even when another thread is in the process of using or updating the same shared variable. This can lead to significant errors.
+
     <br>**Q13:What is the purpose of garbage collection in Java, and when is it used**
     <br>The main purpose of garbage collection is to analyze a program, identify and discard the objects that are no longer needed. It is helpful as the resources can be reclaimed and reused. A Java object is subjected to garbage collection when the object is not reachable to the program in which it is used.
     <br>**Q14:What are the different ways of implementing thread? Which one is more advantageous**
@@ -112,10 +112,39 @@ Finally, I will be glad if this information can bring you some useful help.
     <br>**Q16:What is a Java servlet**
     <br>A Servlet in Java refers to the server-side technologies which are used to extend the competence of web servers by giving it support for a dynamic response as well as data persistence.
     <br>**Q17:the Life-cycle of a Java Servlet**
+    <br>Servlet is loaded
+    Servlet is instantiated
+    Servlet is destroyed
+    Servlet is initialized
+    Service the request
+    <br>**Q18:What is a Java applet**
+    <br>The applet is a Java program that is designed for transmitting the Java code over the internet. Ttion works automatically by Java-enabled Web Browser. The applet can respond to the user input immediately as it is dynamically programmed.
+    <br>**Q19:What is numeric promotion**
+    <br>Numeric promotions of a numeric operator are used for the conversion of the operands into a common type. In order to perform calculations easily, numeric promotion, conversion is performed. It is the conversion of a smaller numeric type to a larger numeric type so that integer and floating-point operations can be performed over it. Here byte, char, and short values are converted to int values. The int values are converted to long values, and the long and float values are converted to double values.
+    <br>**Q20:What is false sharing in the context of multi-threading**
+    <br>```On multi-core systems, false sharing is one of the well-known performance issues. Here each process has its local cache. When threads on a different processor, modify variables false sharing occurs, that resides on the same cache line``` as shown in the following images
+    ```As the thread may access different global variables completely, false sharing can be hard to detect.```
+    <br>**Q21:What are the methods used to implement the key Object in HashMap**
+    <br>Equals and hashcode methods are to be implemented In order to use any object as Key in HashMap
+    <br>**Q22:What is an immutable object**
+    <br>Java classes whose objects cannot be modified once they are created are known as Immutable classes. Any modification of Immutable object results formation of the new object.
+    <br>**Q23:Differentiate between StringBuffer and StringBuilder in Java**
+    <br>The only difference between StringBuffer and StringBuilder is that StringBuffer methods are synchronized while StringBuilder is not synchronized.
+    <br>**Q24:What is the difference between a factory and abstract factory patterns**
+    <br>Abstract Factory provides one more level of abstraction. Consider different factories each extended from an Abstract Factory and responsible for the creation of different hierarchies of objects based on the type of factory. E.g. Abstract Factory extended by Automobile Factory, User Factory, Role Factory, etc. Each individual factory would be responsible for the creation of objects in that genre.
+
+
 
 ##### JS
 ##### Python
 #### 2.Data Struct
+##### Arrays
+[The Video Course of Arrays](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+##### Linked Lists
+[singly-linked-lists-kHhgK](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+##### Stack
+##### Queue
+##### 
 #### 3.Coding Website
 #### 4.Note of Book
 ##### Clean Code
