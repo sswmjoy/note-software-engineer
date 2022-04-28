@@ -62,6 +62,7 @@ Finally, I will be glad if this information can bring you some useful help.
     <br>```Stack in java is a section of memory which contains methods, local variables and reference variables. Local variables are created in the stack.```
     <br>Stack memory is always referenced in LIFO (Last-In-First-Out) order. Whenever a method is invoked, a new block is created in the stack memory for the method to hold local primitive values and reference to other objects in the method.
     As soon as method ends, the block becomes unused and become available for next method. ```Stack memory size is very less compared to Heap memory.```
+
     |Parameter|Stack Memory|Heap Space|
     |--|--|--|
     |Application|Stack is used in parts, one at a time during execution of a thread|The entire application uses Heap space during runtime|
@@ -159,7 +160,7 @@ Finally, I will be glad if this information can bring you some useful help.
     <br>**Q30:Can you explain serialization and deserialization?**
     <br>Both serialization and deserialization are crucial to stream handling in Java. Through serialization, you convert an object into a byte stream, and through deserialization, you simply undo the process.
 
-    <br>Q31:What is a ternary operator
+    <br>**Q31:What is a ternary operator**
     <br>A ternary operator is a conditional operator in Java used to decide what values to be assigned to a variable.
 ##### JS
 ##### Python
