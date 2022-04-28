@@ -55,13 +55,13 @@ Finally, I will be glad if this information can bring you some useful help.
     |Denoted by a empty diamond in UML.|Denoted by a filled diamond in UML.|
     |We do not use "final" keyword for Aggregation.|"final" keyword is used to represent Composition.|
     |Examples: <br>-Car has a Driver.-A Human uses Clothes.<br>-A Company is an aggregation of People.<br>-A Text Editor uses a File.<br>-Mobile has a SIM Card.|Examples:<br>- Engine is a part of Car.<br>- A Human owns the Heart.<br>- A Company is a composition of Accounts.<br>- A Text Editor owns a Buffer.<br>- IMEI Number is a part of a Mobile.|
+
     <br>**Q3:What is difference between Heap and Stack Memory in java?**
     <br>```Java Heap space is used by java runtime to allocate memory to Objects and JRE classes. Whenever we create any object, it’s always created in the Heap space.```
     Garbage Collection runs on the heap memory to free the memory used by objects that doesn’t have any reference. Any object created in the heap space has global access and can be referenced from anywhere of the application.
     <br>```Stack in java is a section of memory which contains methods, local variables and reference variables. Local variables are created in the stack.```
     <br>Stack memory is always referenced in LIFO (Last-In-First-Out) order. Whenever a method is invoked, a new block is created in the stack memory for the method to hold local primitive values and reference to other objects in the method.
     As soon as method ends, the block becomes unused and become available for next method. ```Stack memory size is very less compared to Heap memory.```
-
     |Parameter|Stack Memory|Heap Space|
     |--|--|--|
     |Application|Stack is used in parts, one at a time during execution of a thread|The entire application uses Heap space during runtime|
