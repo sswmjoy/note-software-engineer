@@ -132,9 +132,35 @@ Finally, I will be glad if this information can bring you some useful help.
     <br>The only difference between StringBuffer and StringBuilder is that StringBuffer methods are synchronized while StringBuilder is not synchronized.
     <br>**Q24:What is the difference between a factory and abstract factory patterns**
     <br>Abstract Factory provides one more level of abstraction. Consider different factories each extended from an Abstract Factory and responsible for the creation of different hierarchies of objects based on the type of factory. E.g. Abstract Factory extended by Automobile Factory, User Factory, Role Factory, etc. Each individual factory would be responsible for the creation of objects in that genre.
+    <br>**Q25:Differentiate JAR and WAR files**
+    <br>We are going to share the Difference between the JAR & WAR File:
+    |JAR FILES|WAR FILES|
+    |--|--|
+    |Full form of JAR files is Java Archive Files.|Full form of WAR files is Web Archive Files.|
+    |Aggregating many files into one is allowed in JAR files|XML, Java classes, and JavaServer Pages are stored in WAR|
+    |The JAR is usually used to hold Java classes in a library.|Mainly used for Web Application purposes.|
 
+    <br>**Q26:What is a package in Java?**
+    <br>The collection of related classes and interfaces grouped together is Package in Java. It enables developers to easily modularize codes. Packages help in providing easier access control on the code.
 
+    <br>**Q27:What is the final keyword in Java?**
+    <br>Final is a special keyword in Java being used as a non-access modifier. It is used in various contexts like Final variables, Final Methods, and Final Class. Final class refers to a class being declared as final in Java. 
 
+    <br>**Q28:What are the various types of inheritance in Java**
+    <br>Java has four types of inheritance namely:
+    - Single inheritance - Herein one class inherits the properties of another class.
+    - Multilevel inheritance - A class having more than one parent class but at different levels is termed as Multilevel inheritance.
+    - Hierarchical inheritance - When a class has more than one child class it is termed as hierarchical inheritance.
+    - Hybrid inheritance - It’s a combination of two or more types of inheritance.
+
+    <br>**Q29:What is the most important feature of Java8?**
+    <br>The most important feature of Java 8 is its functional interface and static methods. When adding a functional interface to the object-oriented interface, programming becomes less complicated and more efficient.
+
+    <br>**Q30:Can you explain serialization and deserialization?**
+    <br>Both serialization and deserialization are crucial to stream handling in Java. Through serialization, you convert an object into a byte stream, and through deserialization, you simply undo the process.
+
+    <br>Q31:What is a ternary operator
+    <br>A ternary operator is a conditional operator in Java used to decide what values to be assigned to a variable.
 ##### JS
 ##### Python
 #### 2.Data Struct
@@ -149,6 +175,14 @@ Finally, I will be glad if this information can bring you some useful help.
 #### 4.Note of Book
 ##### Clean Code
 There are two parts to learning craftsmanship: KNOWLEDGE and WORK.
+The only way to make the deadline - the only way to go fast - is to keep the code as clean as possible at all time.
+**Meaningful Name**
+ - Use Intension-revealing Names
+ - Avoid Disinformation
+ - Make Meaningful Distinction
+ - Use Pronounceable Names
+ - Use Searchable Names
+ - 
 
 #### 5.DevOps
 ##### CI/CD
