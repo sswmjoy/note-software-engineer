@@ -162,6 +162,31 @@ Finally, I will be glad if this information can bring you some useful help.
 
     <br>**Q31:What is a ternary operator**
     <br>A ternary operator is a conditional operator in Java used to decide what values to be assigned to a variable.
+
+    <br>**Q32:List the features of the Java Programming language**
+    <br>Some of the significant features of Java Programming Language are:
+    1.Java is an easy-to-learn language. The Fundamental Concept of OOP Java has a catch to understand. 
+    2.The secured feature of Java helps develop a virus-free and tamper-free system for the users.
+    3.It is an OOP or Object-Oriented Programming language. OOP signifies that everything is considered an object in this language.
+    4.This programming language is not compiled into a platform-specific machine; instead, it is compiled into platform-independent bytecode. 
+    <br>**Q33:What makes a HashSet different from a TreeSet**
+    <br>Ans:- Here is the difference:
+    HashSet:  It is implemented through a hash table and permits the null object. 
+    TreeSet:  implements SortedSet Interface that uses trees for storing data. 
+    HashSet: It permits the null object.
+    TreeSet: It does not allow null objects.  
+    HashSet:  It does not maintain elements in an ordered way.  
+    TreeSet: It maintains elements in a sorted way.  
+    <br>**Q34:What is the importance of reflection in Java?**
+    <br>It is a runtime API used to inspect and change the behavior of methods, classes, and interfaces. Java Reflection is a powerful tool that allows you to analyze classes, interfaces, fields, and methods during runtime without knowing what they are called at compile time. It also helps in creating new objects, call methods, and getting/set field values. 
+    <br>**Q35:What is Java String Pool**
+    <br>A collection of Strings stored in heap memory is called Java String Pool. Whenever a new object is formed, first of all, the String pool identifies whether the object is already present in the pool or not. If it is present, then the same reference is returned to the variable; otherwise, a new object is created.
+    <br>**Q36:What is a Map in Java**
+    <br>A map in Java is an interface of the Util package that maps unique keys to values. The Map interface is not a subset of the main Collection interface and hence it performs a little differently from the other collection types.
+    <br>**Q37:Why is Inheritance used in Java?**
+    <br>Inheritance in Java allows for the reuse of code Without using inheritance, runtime polymorphism cannot be achieved
+    It also provides data hiding
+    Method overriding is not possible without inheritance. 
 ##### JS
 ##### Python
 #### 2.Data Struct
@@ -183,7 +208,43 @@ The only way to make the deadline - the only way to go fast - is to keep the cod
  - Make Meaningful Distinction
  - Use Pronounceable Names
  - Use Searchable Names
- - 
+ - Avoid Encodings
+ - Hungarian Notation
+ - Member Prefixes
+ - Interface and Implementations
+   - If I must encode either Interface or Implementation, I choose the implementation(to name **Imp to make distinct between this).
+- Avoid Mental Mapping
+  - Clarity is king! You should use powers for good and write code that others can understand because we are called Professional.
+- Class Names
+  - A class name should not be a verb.
+  - Classes and objects should have noun or noun phrase names.
+- Method Names
+  - Methods should have verb or verb phrase names.
+  - Use static factory menthods with names that describe the arguments is better then using constructor. Consider enforcing their use be making the corresponding constructors private.
+- Don't Be Cute
+  - Say what you mean, mean what you say.
+- Pick One Word per Concept
+- Don't Pun
+- Use Solution/Problem Domain Names
+- Add Meaningful Context
+- Don't add cratuitous Context
+---
+**Function**
+- Small
+- Blocks and Indenting
+- Do One Thing
+  - Functions should do one thing. They should do it well. They should do it only.
+- Sections within Functions
+- One Level of Abstraction per Function
+- Reading Code from Top to Bottom: The Stepdown Rule
+- Swith Statements
+  - Bury the swith statement in the basement of an ABSTRACT FACTORY, and never let anyone see it.
+- Use Descriptive Names
+- Function Arguments
+- 
+
+
+
 
 #### 5.DevOps
 ##### CI/CD
