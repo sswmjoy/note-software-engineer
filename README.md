@@ -281,7 +281,7 @@ The only way to make the deadline - the only way to go fast - is to keep the cod
   <br>**Q6:What is HTTP cURL**
   <br>HTTP cURL is a command-line tool. It is available on all major operating systems
   <br>**Q7:What response codes in HTTP do you often use and descript the details of their meaning**
-  <br>
+  
   - **200 Ok**:This response code is used to show that the request was successful.
   - **201 Created**:This response code shows that the request has been fulfilled, which results in the creation of a new resource.
   - **300 Multiple Choices**:This response code is used to indicate the multiple options for the resource from which the client may choose.
