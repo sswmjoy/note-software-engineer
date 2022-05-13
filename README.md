@@ -251,6 +251,56 @@ The only way to make the deadline - the only way to go fast - is to keep the cod
 ##### K8S
 ##### Docker
 #### 6.More Knowledge
+##### HTTP&NetWorking
+  <br>**Q1:Describe the OSI Reference Model**
+  Open System Interconnections (OSI) is a network architecture model based on the ISO standards. It is called the OSI model as it deals with connecting the systems that are open for communication with other systems.
+  <br>The OSI model has seven layers. The principles used to arrive at the seven layers can be summarized  briefly as below:
+  - Create a new layer if a different abstraction is needed.
+  - Each layer should have a well-defined function.
+  - The function of each layer is chosen based on internationally standardized protocols.
+  ![alt Seven Layers](https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/381/original/Layers_of_OSI_Model.png?1619607169)
+  <br>**Q2:What is the DNS?**
+  <br>DNS is the Domain Name System. It is considered as the devices/services directory of the Internet. It is a decentralized and hierarchical naming system for devices/services connected to the Internet. It translates the domain names to their corresponding IPs. For e.g. interviewbit.com to 172.217.166.36. It uses port 53 by default.
+  <br>**Q3:What are HTTP Request Methods?**
+  <br>**GET**
+  <br>This method retrieves information from the given server using a given URI. GET request can retrieve the data. It cannot apply other effects on the data.
+  <br>**HEAD**
+  <br>The HEAD method is the same as the GET method. It is used to transfer the status line and header section only.
+  <br>**POST**
+  <br>The POST request sends the data to the server. For example, file upload, customer information, etc. using the HTML forms.
+  <br>**PUT**
+  <br>The PUT method is used to replace all the current representations of the target resource with the uploaded content.
+  <br>**DELETE**
+  <br>The DELETE method is used to remove all the current representations of the target resource, which is given by URI.
+  <br>**CONNECT**
+  <br>The CONNECT method is used to establish a tunnel to the server, which is identified by a given URI.
+  <br>**Q4:What is the Status Code?**
+  <br>The Server issues an HTTP Status Code in response to a request of the client made to the server. Status code is a 3-digit integer. The first digit of status code is used to specify one of five standard classes of responses. The last two digits of status code do not have any categorization role.
+  <br>**Q5:What is Session State in HTTP?**
+  <br>Session state is also known as Stateless state. HTTP is a stateless protocol. In the session state, the client and server just know about each other only during the current request. If the connection is closed, and two computers want to connect again, they need to provide information to each other as a new connection, and the connection is handled as the very first one.
+  <br>**Q6:What is HTTP cURL**
+  <br>HTTP cURL is a command-line tool. It is available on all major operating systems
+  <br>**Q7:What response codes in HTTP do you often use and descript the details of their meaning**
+  <br>
+  - **200 Ok**:This response code is used to show that the request was successful.
+  - **201 Created**:This response code shows that the request has been fulfilled, which results in the creation of a new resource.
+  - **300 Multiple Choices**:This response code is used to indicate the multiple options for the resource from which the client may choose.
+  - **400 Bad Request**:This code is used to indicate that the server did not understand the request due to invalid syntax.
+  - **401 Unauthorized**:This error is used to show that we need to perform authentication before accessing the resource.
+  - **405 Method Not Allowed**:This response code shows that the request method is not supported by the requested resource.
+  - **408 Request Timeout**:This code is used to show that the request took longer than the server was prepared to wait.
+  - **500 Internal Server Error**:This code is used to show that the server has encountered a situation, and it does not know how to handle it.
+  <br>**Q8:Tell me to which OSI Layer does IP belong?**
+  <br>In the OSI layer, IP belongs to the Network layer, which is the third layer in the OSI layer.
+  <br>**Q9:What is HTTPS?**
+  <br>HTTPS stands for Hypertext Transfer Protocol Secure. HTTPS has a secure transfer. HTTPS is used to encrypt or decrypt user HTTP page or HTTP page requests that are returned by the webserver.
+  <br>**Q10:What is Content Negotiation in HTTP?**
+  <br>Most of the responses of HTTP include an entity which contains the information for interpretation by a user. Naturally, it is used to supply the user with the best available entity corresponding to the request. Unfortunately for cache and server, not all users have the same preferences for what is best. That's why HTTP has provisions for several mechanisms for "content negotiation", when there are multiple representations available, the process of selecting the best representation for a given response.
+  <br>**Q11:What are the different types of HTTP content negotiation?**
+  - **Server-driven Negotiation**: When a server-driven negotiation occurs, then the selection of the best representation for a response is made by an algorithm which is located at the server.
+  - **Agent-driven Negotiation**: When an agent-driven negotiation occurs, the user agent performs the selection of the best representation for a response after receiving an initial response from the origin server.
+  - **Transparent Negotiation**: It is a combination of both server-driven negotiation and agent-driven negotiation.
+
 ### Getting the Job
 ---
 #### 1.How to Make a Resume
