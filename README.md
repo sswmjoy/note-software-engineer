@@ -197,6 +197,14 @@ Finally, I will be glad if this information can bring you some useful help.
     notice:we can make HashMap as the synchronized by calling Collection.synchronizedMap(hashMap)
     <br>**Q39:What is the differents between equals and == operator?**
     <br>**Q40:What is the difference between Abstract classes and Interfaces?**
+    <br>An abstract class can provide complete, default code and details that have be overridden.
+    <br>An interface cannot provide any code at all, just the signature.
+    <br>An abstract can have non-abstracted code and instance values, but all methods of an interface are abstract and cannot have instance values..
+    <br>**Q41:What is the Polymorphism?**
+    <br>Polymorphism is briefly describe as "one interface,many implementations".
+    <br>It is a characteristic of being to able to assign a different meaning or uses to something in different contexts.
+    <br>**Q42:What is runtime Polymorphism or dynamic method dispatch?**
+    <br>It is a process in which a call to an overridden method is resolved at runtime rather than at compile-time. In this process, an overridden method is called through the reference variable of a superclass.
 ##### JS
 ##### Python
 #### 2.Data Struct
