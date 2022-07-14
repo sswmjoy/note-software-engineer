@@ -193,7 +193,7 @@ Finally, I will be glad if this information can bring you some useful help.
     |--|--|
     |HashMap is non synchronized and are not thread safe| HashTable is synchronized and it's thread safe and can be shared with many threads.|
     |HashMap allows one null key and nultiple null values| HashTable doesn't allow any null key or value|
-    |--|--|
+    
     notice:we can make HashMap as the synchronized by calling Collection.synchronizedMap(hashMap)
     <br>**Q39:What is the differents between equals and == operator?**
     <br>**Q40:What is the difference between Abstract classes and Interfaces?**
