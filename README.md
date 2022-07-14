@@ -187,6 +187,15 @@ Finally, I will be glad if this information can bring you some useful help.
     <br>Inheritance in Java allows for the reuse of code Without using inheritance, runtime polymorphism cannot be achieved
     It also provides data hiding
     Method overriding is not possible without inheritance. 
+    <br>**Q38:What is the differents between HashMap and HashTable?**
+    <br>
+    |HashMap|HashTable|
+    |--|--|
+    |HashMap is non synchronized and are not thread safe| HashTable is synchronized and it's thread safe and can be shared with many threads.|
+    |HashMap allows one null key and nultiple null values| HashTable doesn't allow any null key or value|
+    notice:we can make HashMap as the synchronized by calling Collection.synchronizedMap(hashMap)
+    <br>**Q39:What is the differents between equals and == operator?**
+    <br>**Q40:What is the difference between Abstract classes and Interfaces?**
 ##### JS
 ##### Python
 #### 2.Data Struct
